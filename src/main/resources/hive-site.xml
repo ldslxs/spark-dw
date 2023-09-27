@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+
+  <property><!--Hive连接到该URI请求远程元存储的元数据-->
+    <name>hive.metastore.uris</name>
+    <value>thrift://node04:9083</value>
+  </property>
+  <property>
+    <name>hive.exec.scratchdir</name>
+    <value>hdfs://node04:9000/tmp/hive</value>
+  </property>
+</configuration>
